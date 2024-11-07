@@ -19,7 +19,7 @@
     }
 
     // Retrieve the script from GitHub raw file
-    fetch('https://raw.githubusercontent.com/CharlieMrFox/TestIO_GreenTLsRRS/main/v082024.1')
+    fetch('https://raw.githubusercontent.com/Max7771/TestIO_GreenTLsRRS/main/v082024.1')
         .then(response => response.text())
         .then(script => {
             injectScript(script);
